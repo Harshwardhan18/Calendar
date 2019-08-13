@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Calendar</title>
 </head>
+
 <body>
     <h1 id="heading">Calendar</h1>
     <div class="container">
         <div class="header-date">
-            <button>&lt;</button>
+            <button id="back">&lt;</button>
             <span id="date">CURRENT MONTH</span>
-            <button>&gt;</button>
+            <button id="forward">&gt;</button>
         </div>
         <div class="header-days">
-                <span data-name="0">Sun</span>
-                <span data-name="1">Mon</span>
-                <span data-name="2">Tue</span>
-                <span data-name="3">Wed</span>
-                <span data-name="4">Thurs</span>
-                <span data-name="5">Fri</span>
-                <span data-name="6">Sat</span>
+            <span class="header-names">Sunday</span>
+            <span class="header-names">Monday</span>
+            <span class="header-names">Tuesday</span>
+            <span class="header-names">Wednesday</span>
+            <span class="header-names">Thursday</span>
+            <span class="header-names">Friday</span>
+            <span class="header-names">Saturday</span>
         </div>
         <div class="content">
-            
         </div>
     </div>
     <script src="Main.js"></script>
     <link rel="stylesheet" href="Style.css">
 </body>
+
 </html>
