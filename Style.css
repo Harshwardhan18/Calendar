@@ -1,0 +1,63 @@
+#heading {
+    color: darkcyan;
+    text-shadow: 0.5em;
+}
+
+.container{
+    padding: 2px;
+}
+
+.header-date{
+    background-color: rgb(82, 209, 209);
+    display: flex;
+    height: 100px;
+    width: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#date{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+}
+button{
+    font-size: 30px;
+    background-color: rgb(82,209,209);
+    color:white;
+    box-shadow: 2rem;
+    border:none;
+}
+
+.header-days {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 1000px;
+    background-color: rgb(207, 203, 203);
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    height: 400px;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(229, 238, 237, 0.699);
+}
+
+.dates{
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+    justify-content: space-around;
+}
+
+.month-dates {
+    display: flex;
+    padding:10px;
+    margin:35px;
+    height:20px;
+    
+}
